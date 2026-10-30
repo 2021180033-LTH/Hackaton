@@ -1,0 +1,182 @@
+{
+  "asset_id": "3760e4b4ccf095b0",
+  "checks": [
+    {
+      "name": "QA-A saved MP4 exact decode",
+      "passed": true,
+      "status": "ready",
+      "seconds": 11.9266657
+    },
+    {
+      "name": "QA-A correct attribution",
+      "passed": true
+    },
+    {
+      "name": "QA-B saved MP4 exact decode",
+      "passed": false,
+      "status": "verification_failed",
+      "seconds": 5.1896201
+    }
+  ],
+  "deliveries": [
+    {
+      "accesses": [],
+      "asset_id": "3760e4b4ccf095b0",
+      "browser_id": "9b44c3e831ae6fdc558b367ca5193071",
+      "completed_at": "2026-10-30T18:56:18Z",
+      "id": "a8f0e50d747f1f32",
+      "issued_at": "2026-10-30T18:56:05Z",
+      "label": "QA-A",
+      "label_verified": false,
+      "processing": {
+        "device": "CUDA",
+        "elapsed_seconds": 11.9266657,
+        "fps": 24,
+        "frames": 192,
+        "height": 720,
+        "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\a8f0e50d747f1f32\\watermarked.mp4",
+        "pre_encode_psnr_db": 49.20930059060343,
+        "saved_mp4_exact_match": true,
+        "strength": 0.2,
+        "verification": {
+          "device": "CUDA",
+          "frame_bit_agreement": 0.942626953125,
+          "input": {
+            "codec": "h264",
+            "duration": 8.0,
+            "height": 720,
+            "width": 1280
+          },
+          "mean_abs_logit": 6.319102185079828,
+          "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+          "payload_hex": "464701003760e4b4ccf095b0a8f0e50d747f1f32e349265febb4df37d05d9c2b",
+          "sampled_frames": 32
+        },
+        "width": 1280
+      },
+      "request_ip": "127.0.0.1",
+      "session_id": "d5fbbe9c11ed6ae1ec1afb01e905dd84",
+      "status": "ready"
+    },
+    {
+      "accesses": [],
+      "asset_id": "3760e4b4ccf095b0",
+      "browser_id": "9b44c3e831ae6fdc558b367ca5193071",
+      "completed_at": "2026-10-30T18:56:27Z",
+      "id": "60e3003389f64672",
+      "issued_at": "2026-10-30T18:56:22Z",
+      "label": "QA-B",
+      "label_verified": false,
+      "processing": {
+        "device": "CUDA",
+        "elapsed_seconds": 5.1896201,
+        "fps": 24,
+        "frames": 192,
+        "height": 720,
+        "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\60e3003389f64672\\watermarked.mp4",
+        "pre_encode_psnr_db": 49.290529619027595,
+        "saved_mp4_exact_match": false,
+        "strength": 0.2,
+        "verification": {
+          "device": "CUDA",
+          "frame_bit_agreement": 0.9403076171875,
+          "input": {
+            "codec": "h264",
+            "duration": 8.0,
+            "height": 720,
+            "width": 1280
+          },
+          "mean_abs_logit": 6.202377822250128,
+          "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+          "payload_hex": "464701003760e4b4ccf095b060e3003388f646721c9ea125ff24d6a3091a7b7d",
+          "sampled_frames": 32
+        },
+        "width": 1280
+      },
+      "request_ip": "127.0.0.1",
+      "session_id": "d5fbbe9c11ed6ae1ec1afb01e905dd84",
+      "status": "verification_failed"
+    }
+  ],
+  "reports": [
+    {
+      "asset": {
+        "bytes": 1076853,
+        "created_at": "2026-10-30T18:56:05Z",
+        "id": "3760e4b4ccf095b0",
+        "media": {
+          "codec": "h264",
+          "duration": 8.0,
+          "height": 720,
+          "width": 1280
+        },
+        "name": "sample.mp4",
+        "sha256": "943c35f5478b093363ca537ba124d600a0c9c155699b81251599903d922e364a"
+      },
+      "created_at": "2026-10-30T18:56:21Z",
+      "delivery": {
+        "accesses": [
+          {
+            "browser_id": "9b44c3e831ae6fdc558b367ca5193071",
+            "ip": "127.0.0.1",
+            "session_id": "d5fbbe9c11ed6ae1ec1afb01e905dd84",
+            "time": "2026-10-30T18:56:19Z"
+          }
+        ],
+        "asset_id": "3760e4b4ccf095b0",
+        "browser_id": "9b44c3e831ae6fdc558b367ca5193071",
+        "completed_at": "2026-10-30T18:56:18Z",
+        "id": "a8f0e50d747f1f32",
+        "issued_at": "2026-10-30T18:56:05Z",
+        "label": "QA-A",
+        "label_verified": false,
+        "processing": {
+          "device": "CUDA",
+          "elapsed_seconds": 11.9266657,
+          "fps": 24,
+          "frames": 192,
+          "height": 720,
+          "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\a8f0e50d747f1f32\\watermarked.mp4",
+          "pre_encode_psnr_db": 49.20930059060343,
+          "saved_mp4_exact_match": true,
+          "strength": 0.2,
+          "verification": {
+            "device": "CUDA",
+            "frame_bit_agreement": 0.942626953125,
+            "input": {
+              "codec": "h264",
+              "duration": 8.0,
+              "height": 720,
+              "width": 1280
+            },
+            "mean_abs_logit": 6.319102185079828,
+            "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+            "payload_hex": "464701003760e4b4ccf095b0a8f0e50d747f1f32e349265febb4df37d05d9c2b",
+            "sampled_frames": 32
+          },
+          "width": 1280
+        },
+        "request_ip": "127.0.0.1",
+        "session_id": "d5fbbe9c11ed6ae1ec1afb01e905dd84",
+        "status": "ready"
+      },
+      "device": "CUDA",
+      "elapsed_seconds": 2.395622,
+      "frame_bit_agreement": 0.942626953125,
+      "identity_proven": false,
+      "input": {
+        "codec": "h264",
+        "duration": 8.0,
+        "height": 720,
+        "width": 1280
+      },
+      "mean_abs_logit": 6.319100560154766,
+      "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+      "payload_hex": "464701003760e4b4ccf095b0a8f0e50d747f1f32e349265febb4df37d05d9c2b",
+      "reason": "등록된 배포 사본의 코드와 정확히 일치하며 HMAC 검증을 통과했습니다.",
+      "report_id": "6ffbe4bb24a6f068",
+      "sampled_frames": 32,
+      "status": "matched"
+    }
+  ]
+}

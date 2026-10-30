@@ -1,0 +1,558 @@
+[
+  {
+    "case": "Strong-A 480p_crf23",
+    "passed": true,
+    "delivery": {
+      "accesses": [],
+      "asset_id": "1b2d8f423cf48b8f",
+      "browser_id": "c661897403286fae93572ebfd1150511",
+      "completed_at": "2026-10-30T18:59:39Z",
+      "id": "1c677620ba780b8a",
+      "issued_at": "2026-10-30T18:59:34Z",
+      "label": "Strong-A",
+      "label_verified": false,
+      "processing": {
+        "channel_recovery": {
+          "corrected_bits": 0,
+          "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+          "valid": true
+        },
+        "device": "CUDA",
+        "elapsed_seconds": 4.6232672,
+        "fps": 24,
+        "frames": 192,
+        "height": 720,
+        "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\1c677620ba780b8a\\watermarked.mp4",
+        "pre_encode_psnr_db": 43.21165470023636,
+        "saved_mp4_authenticated_match": true,
+        "saved_mp4_exact_match": true,
+        "strength": 0.4,
+        "verification": {
+          "device": "CUDA",
+          "frame_bit_agreement": 0.9935302734375,
+          "input": {
+            "codec": "h264",
+            "duration": 8.0,
+            "height": 720,
+            "width": 1280
+          },
+          "mean_abs_logit": 9.592529740184546,
+          "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+          "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+          "sampled_frames": 32
+        },
+        "width": 1280
+      },
+      "request_ip": "127.0.0.1",
+      "session_id": "7aeba84115f00adf0d789e37880c5616",
+      "status": "ready"
+    },
+    "report": {
+      "asset": {
+        "bytes": 1076853,
+        "created_at": "2026-10-30T18:58:21Z",
+        "id": "1b2d8f423cf48b8f",
+        "media": {
+          "codec": "h264",
+          "duration": 8.0,
+          "height": 720,
+          "width": 1280
+        },
+        "name": "sample.mp4",
+        "sha256": "943c35f5478b093363ca537ba124d600a0c9c155699b81251599903d922e364a"
+      },
+      "channel_recovery": {
+        "corrected_bits": 0,
+        "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+        "valid": true
+      },
+      "created_at": "2026-10-30T18:59:42Z",
+      "delivery": {
+        "accesses": [
+          {
+            "browser_id": "",
+            "ip": "127.0.0.1",
+            "session_id": "",
+            "time": "2026-10-30T18:59:39Z"
+          }
+        ],
+        "asset_id": "1b2d8f423cf48b8f",
+        "browser_id": "c661897403286fae93572ebfd1150511",
+        "completed_at": "2026-10-30T18:59:39Z",
+        "id": "1c677620ba780b8a",
+        "issued_at": "2026-10-30T18:59:34Z",
+        "label": "Strong-A",
+        "label_verified": false,
+        "processing": {
+          "channel_recovery": {
+            "corrected_bits": 0,
+            "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+            "valid": true
+          },
+          "device": "CUDA",
+          "elapsed_seconds": 4.6232672,
+          "fps": 24,
+          "frames": 192,
+          "height": 720,
+          "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\1c677620ba780b8a\\watermarked.mp4",
+          "pre_encode_psnr_db": 43.21165470023636,
+          "saved_mp4_authenticated_match": true,
+          "saved_mp4_exact_match": true,
+          "strength": 0.4,
+          "verification": {
+            "device": "CUDA",
+            "frame_bit_agreement": 0.9935302734375,
+            "input": {
+              "codec": "h264",
+              "duration": 8.0,
+              "height": 720,
+              "width": 1280
+            },
+            "mean_abs_logit": 9.592529740184546,
+            "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+            "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+            "sampled_frames": 32
+          },
+          "width": 1280
+        },
+        "request_ip": "127.0.0.1",
+        "session_id": "7aeba84115f00adf0d789e37880c5616",
+        "status": "ready"
+      },
+      "device": "CUDA",
+      "elapsed_seconds": 2.0523315,
+      "frame_bit_agreement": 0.9818115234375,
+      "identity_proven": false,
+      "input": {
+        "codec": "h264",
+        "duration": 8.0,
+        "height": 480,
+        "width": 854
+      },
+      "mean_abs_logit": 8.651499128900468,
+      "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+      "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+      "reason": "복원한 코드가 등록된 배포 사본과 일치하며 HMAC 검증을 통과했습니다. 보정 비트: 0",
+      "report_id": "ef8e17349f3cfc3b",
+      "sampled_frames": 32,
+      "status": "matched"
+    }
+  },
+  {
+    "case": "Strong-A trim3s_crf23",
+    "passed": true,
+    "delivery": {
+      "accesses": [],
+      "asset_id": "1b2d8f423cf48b8f",
+      "browser_id": "c661897403286fae93572ebfd1150511",
+      "completed_at": "2026-10-30T18:59:39Z",
+      "id": "1c677620ba780b8a",
+      "issued_at": "2026-10-30T18:59:34Z",
+      "label": "Strong-A",
+      "label_verified": false,
+      "processing": {
+        "channel_recovery": {
+          "corrected_bits": 0,
+          "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+          "valid": true
+        },
+        "device": "CUDA",
+        "elapsed_seconds": 4.6232672,
+        "fps": 24,
+        "frames": 192,
+        "height": 720,
+        "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\1c677620ba780b8a\\watermarked.mp4",
+        "pre_encode_psnr_db": 43.21165470023636,
+        "saved_mp4_authenticated_match": true,
+        "saved_mp4_exact_match": true,
+        "strength": 0.4,
+        "verification": {
+          "device": "CUDA",
+          "frame_bit_agreement": 0.9935302734375,
+          "input": {
+            "codec": "h264",
+            "duration": 8.0,
+            "height": 720,
+            "width": 1280
+          },
+          "mean_abs_logit": 9.592529740184546,
+          "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+          "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+          "sampled_frames": 32
+        },
+        "width": 1280
+      },
+      "request_ip": "127.0.0.1",
+      "session_id": "7aeba84115f00adf0d789e37880c5616",
+      "status": "ready"
+    },
+    "report": {
+      "asset": {
+        "bytes": 1076853,
+        "created_at": "2026-10-30T18:58:21Z",
+        "id": "1b2d8f423cf48b8f",
+        "media": {
+          "codec": "h264",
+          "duration": 8.0,
+          "height": 720,
+          "width": 1280
+        },
+        "name": "sample.mp4",
+        "sha256": "943c35f5478b093363ca537ba124d600a0c9c155699b81251599903d922e364a"
+      },
+      "channel_recovery": {
+        "corrected_bits": 0,
+        "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+        "valid": true
+      },
+      "created_at": "2026-10-30T18:59:45Z",
+      "delivery": {
+        "accesses": [
+          {
+            "browser_id": "",
+            "ip": "127.0.0.1",
+            "session_id": "",
+            "time": "2026-10-30T18:59:39Z"
+          }
+        ],
+        "asset_id": "1b2d8f423cf48b8f",
+        "browser_id": "c661897403286fae93572ebfd1150511",
+        "completed_at": "2026-10-30T18:59:39Z",
+        "id": "1c677620ba780b8a",
+        "issued_at": "2026-10-30T18:59:34Z",
+        "label": "Strong-A",
+        "label_verified": false,
+        "processing": {
+          "channel_recovery": {
+            "corrected_bits": 0,
+            "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+            "valid": true
+          },
+          "device": "CUDA",
+          "elapsed_seconds": 4.6232672,
+          "fps": 24,
+          "frames": 192,
+          "height": 720,
+          "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\1c677620ba780b8a\\watermarked.mp4",
+          "pre_encode_psnr_db": 43.21165470023636,
+          "saved_mp4_authenticated_match": true,
+          "saved_mp4_exact_match": true,
+          "strength": 0.4,
+          "verification": {
+            "device": "CUDA",
+            "frame_bit_agreement": 0.9935302734375,
+            "input": {
+              "codec": "h264",
+              "duration": 8.0,
+              "height": 720,
+              "width": 1280
+            },
+            "mean_abs_logit": 9.592529740184546,
+            "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+            "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+            "sampled_frames": 32
+          },
+          "width": 1280
+        },
+        "request_ip": "127.0.0.1",
+        "session_id": "7aeba84115f00adf0d789e37880c5616",
+        "status": "ready"
+      },
+      "device": "CUDA",
+      "elapsed_seconds": 2.0503059,
+      "frame_bit_agreement": 0.9910888671875,
+      "identity_proven": false,
+      "input": {
+        "codec": "h264",
+        "duration": 3.0,
+        "height": 720,
+        "width": 1280
+      },
+      "mean_abs_logit": 9.482433483935893,
+      "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+      "payload_hex": "464701001b2d8f423cf48b8f1c677620ba780b8a464b324e04474893fb384edd",
+      "reason": "복원한 코드가 등록된 배포 사본과 일치하며 HMAC 검증을 통과했습니다. 보정 비트: 0",
+      "report_id": "45d8fcb1f345f123",
+      "sampled_frames": 32,
+      "status": "matched"
+    }
+  },
+  {
+    "case": "Strong-B 480p_crf23",
+    "passed": true,
+    "delivery": {
+      "accesses": [],
+      "asset_id": "1b2d8f423cf48b8f",
+      "browser_id": "b5e3e062ce8e613814ddacd7a45e7eac",
+      "completed_at": "2026-10-30T18:59:51Z",
+      "id": "fb7846e5511172fb",
+      "issued_at": "2026-10-30T18:59:46Z",
+      "label": "Strong-B",
+      "label_verified": false,
+      "processing": {
+        "channel_recovery": {
+          "corrected_bits": 0,
+          "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+          "valid": true
+        },
+        "device": "CUDA",
+        "elapsed_seconds": 4.5649842,
+        "fps": 24,
+        "frames": 192,
+        "height": 720,
+        "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\fb7846e5511172fb\\watermarked.mp4",
+        "pre_encode_psnr_db": 43.31256800954789,
+        "saved_mp4_authenticated_match": true,
+        "saved_mp4_exact_match": true,
+        "strength": 0.4,
+        "verification": {
+          "device": "CUDA",
+          "frame_bit_agreement": 0.99267578125,
+          "input": {
+            "codec": "h264",
+            "duration": 8.0,
+            "height": 720,
+            "width": 1280
+          },
+          "mean_abs_logit": 9.804136784747243,
+          "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+          "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+          "sampled_frames": 32
+        },
+        "width": 1280
+      },
+      "request_ip": "127.0.0.1",
+      "session_id": "f3661b2a0097cebff6ea5dc8cd4a8e2f",
+      "status": "ready"
+    },
+    "report": {
+      "asset": {
+        "bytes": 1076853,
+        "created_at": "2026-10-30T18:58:21Z",
+        "id": "1b2d8f423cf48b8f",
+        "media": {
+          "codec": "h264",
+          "duration": 8.0,
+          "height": 720,
+          "width": 1280
+        },
+        "name": "sample.mp4",
+        "sha256": "943c35f5478b093363ca537ba124d600a0c9c155699b81251599903d922e364a"
+      },
+      "channel_recovery": {
+        "corrected_bits": 0,
+        "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+        "valid": true
+      },
+      "created_at": "2026-10-30T18:59:54Z",
+      "delivery": {
+        "accesses": [
+          {
+            "browser_id": "",
+            "ip": "127.0.0.1",
+            "session_id": "",
+            "time": "2026-10-30T18:59:52Z"
+          }
+        ],
+        "asset_id": "1b2d8f423cf48b8f",
+        "browser_id": "b5e3e062ce8e613814ddacd7a45e7eac",
+        "completed_at": "2026-10-30T18:59:51Z",
+        "id": "fb7846e5511172fb",
+        "issued_at": "2026-10-30T18:59:46Z",
+        "label": "Strong-B",
+        "label_verified": false,
+        "processing": {
+          "channel_recovery": {
+            "corrected_bits": 0,
+            "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+            "valid": true
+          },
+          "device": "CUDA",
+          "elapsed_seconds": 4.5649842,
+          "fps": 24,
+          "frames": 192,
+          "height": 720,
+          "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\fb7846e5511172fb\\watermarked.mp4",
+          "pre_encode_psnr_db": 43.31256800954789,
+          "saved_mp4_authenticated_match": true,
+          "saved_mp4_exact_match": true,
+          "strength": 0.4,
+          "verification": {
+            "device": "CUDA",
+            "frame_bit_agreement": 0.99267578125,
+            "input": {
+              "codec": "h264",
+              "duration": 8.0,
+              "height": 720,
+              "width": 1280
+            },
+            "mean_abs_logit": 9.804136784747243,
+            "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+            "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+            "sampled_frames": 32
+          },
+          "width": 1280
+        },
+        "request_ip": "127.0.0.1",
+        "session_id": "f3661b2a0097cebff6ea5dc8cd4a8e2f",
+        "status": "ready"
+      },
+      "device": "CUDA",
+      "elapsed_seconds": 2.0572172,
+      "frame_bit_agreement": 0.9818115234375,
+      "identity_proven": false,
+      "input": {
+        "codec": "h264",
+        "duration": 8.0,
+        "height": 480,
+        "width": 854
+      },
+      "mean_abs_logit": 8.67901619989425,
+      "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+      "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+      "reason": "복원한 코드가 등록된 배포 사본과 일치하며 HMAC 검증을 통과했습니다. 보정 비트: 0",
+      "report_id": "e477420e9145cd42",
+      "sampled_frames": 32,
+      "status": "matched"
+    }
+  },
+  {
+    "case": "Strong-B trim3s_crf23",
+    "passed": true,
+    "delivery": {
+      "accesses": [],
+      "asset_id": "1b2d8f423cf48b8f",
+      "browser_id": "b5e3e062ce8e613814ddacd7a45e7eac",
+      "completed_at": "2026-10-30T18:59:51Z",
+      "id": "fb7846e5511172fb",
+      "issued_at": "2026-10-30T18:59:46Z",
+      "label": "Strong-B",
+      "label_verified": false,
+      "processing": {
+        "channel_recovery": {
+          "corrected_bits": 0,
+          "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+          "valid": true
+        },
+        "device": "CUDA",
+        "elapsed_seconds": 4.5649842,
+        "fps": 24,
+        "frames": 192,
+        "height": 720,
+        "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\fb7846e5511172fb\\watermarked.mp4",
+        "pre_encode_psnr_db": 43.31256800954789,
+        "saved_mp4_authenticated_match": true,
+        "saved_mp4_exact_match": true,
+        "strength": 0.4,
+        "verification": {
+          "device": "CUDA",
+          "frame_bit_agreement": 0.99267578125,
+          "input": {
+            "codec": "h264",
+            "duration": 8.0,
+            "height": 720,
+            "width": 1280
+          },
+          "mean_abs_logit": 9.804136784747243,
+          "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+          "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+          "sampled_frames": 32
+        },
+        "width": 1280
+      },
+      "request_ip": "127.0.0.1",
+      "session_id": "f3661b2a0097cebff6ea5dc8cd4a8e2f",
+      "status": "ready"
+    },
+    "report": {
+      "asset": {
+        "bytes": 1076853,
+        "created_at": "2026-10-30T18:58:21Z",
+        "id": "1b2d8f423cf48b8f",
+        "media": {
+          "codec": "h264",
+          "duration": 8.0,
+          "height": 720,
+          "width": 1280
+        },
+        "name": "sample.mp4",
+        "sha256": "943c35f5478b093363ca537ba124d600a0c9c155699b81251599903d922e364a"
+      },
+      "channel_recovery": {
+        "corrected_bits": 0,
+        "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+        "valid": true
+      },
+      "created_at": "2026-10-30T18:59:58Z",
+      "delivery": {
+        "accesses": [
+          {
+            "browser_id": "",
+            "ip": "127.0.0.1",
+            "session_id": "",
+            "time": "2026-10-30T18:59:52Z"
+          }
+        ],
+        "asset_id": "1b2d8f423cf48b8f",
+        "browser_id": "b5e3e062ce8e613814ddacd7a45e7eac",
+        "completed_at": "2026-10-30T18:59:51Z",
+        "id": "fb7846e5511172fb",
+        "issued_at": "2026-10-30T18:59:46Z",
+        "label": "Strong-B",
+        "label_verified": false,
+        "processing": {
+          "channel_recovery": {
+            "corrected_bits": 0,
+            "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+            "valid": true
+          },
+          "device": "CUDA",
+          "elapsed_seconds": 4.5649842,
+          "fps": 24,
+          "frames": 192,
+          "height": 720,
+          "output": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\data/deliveries\\fb7846e5511172fb\\watermarked.mp4",
+          "pre_encode_psnr_db": 43.31256800954789,
+          "saved_mp4_authenticated_match": true,
+          "saved_mp4_exact_match": true,
+          "strength": 0.4,
+          "verification": {
+            "device": "CUDA",
+            "frame_bit_agreement": 0.99267578125,
+            "input": {
+              "codec": "h264",
+              "duration": 8.0,
+              "height": 720,
+              "width": 1280
+            },
+            "mean_abs_logit": 9.804136784747243,
+            "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+            "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+            "sampled_frames": 32
+          },
+          "width": 1280
+        },
+        "request_ip": "127.0.0.1",
+        "session_id": "f3661b2a0097cebff6ea5dc8cd4a8e2f",
+        "status": "ready"
+      },
+      "device": "CUDA",
+      "elapsed_seconds": 2.167844,
+      "frame_bit_agreement": 0.9921875,
+      "identity_proven": false,
+      "input": {
+        "codec": "h264",
+        "duration": 3.0,
+        "height": 720,
+        "width": 1280
+      },
+      "mean_abs_logit": 9.706490089185536,
+      "note": "Logit margin and agreement are diagnostics, not identity confidence.",
+      "payload_hex": "464701001b2d8f423cf48b8ffb7846e5511172fb914d60d7232b1ce60b66acc9",
+      "reason": "복원한 코드가 등록된 배포 사본과 일치하며 HMAC 검증을 통과했습니다. 보정 비트: 0",
+      "report_id": "07eded861a29ae66",
+      "sampled_frames": 32,
+      "status": "matched"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+data/secret.key
+data/ffmpeg.log
+build/
+issued/
+tests/leaks/
+*.obj
+*.pdb

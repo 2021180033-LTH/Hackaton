@@ -1,0 +1,456 @@
+{
+  "scope": "One 8s 720p synthetic source, two viewer sessions, strength 0.4; all transformed clips reencoded H.264 CRF23.",
+  "checks": [
+    {
+      "name": "Creator upload does not issue any viewer watermark",
+      "passed": true
+    },
+    {
+      "name": "Legacy creator-side issue API disabled",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A cannot access creator ledger",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A cannot fetch original",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A copy verified",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A recorded viewer identity, not creator",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A untrusted IP inputs ignored",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A no media transmission invented",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A event before media rejected",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A event explicitly marked client-reported",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A actual media request recorded",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A creator cannot fetch viewer stream",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A legacy media URL cannot bypass session binding",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B cannot access creator ledger",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B cannot fetch original",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B copy verified",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B recorded viewer identity, not creator",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B untrusted IP inputs ignored",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B no media transmission invented",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B event before media rejected",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B event explicitly marked client-reported",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B actual media request recorded",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B creator cannot fetch viewer stream",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B legacy media URL cannot bypass session binding",
+      "passed": true
+    },
+    {
+      "name": "Two viewers receive different browser/session/code IDs",
+      "passed": true
+    },
+    {
+      "name": "Viewer cannot fetch other viewer stream 0",
+      "passed": true
+    },
+    {
+      "name": "Viewer cannot read other playback status 0",
+      "passed": true
+    },
+    {
+      "name": "Viewer cannot fetch other viewer stream 1",
+      "passed": true
+    },
+    {
+      "name": "Viewer cannot read other playback status 1",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A identity never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A horizontal never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A vertical never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A both never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A horizontal_360p never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A vertical_stretch never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-A horizontal_crop125 never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B identity never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B horizontal never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B vertical never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B both never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B horizontal_360p never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B vertical_stretch never attributes to wrong viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer-B horizontal_crop125 never attributes to wrong viewer",
+      "passed": true
+    }
+  ],
+  "transforms": [
+    {
+      "viewer": "Viewer-A",
+      "case": "identity",
+      "filter": "null",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "identity",
+      "expected_orientation": "identity",
+      "correction_bits": 0,
+      "detector_seconds": 3.9716628,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "fd9209673136ee3a",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_identity.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "horizontal",
+      "filter": "hflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "identity",
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4741079,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "60d75c33d36a9bfc",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_horizontal.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "vertical",
+      "filter": "vflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "vertical_flip",
+      "expected_orientation": "vertical_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4911649,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "576defe0e0bdd691",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_vertical.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "both",
+      "filter": "hflip,vflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "vertical_flip",
+      "expected_orientation": "both_flips",
+      "correction_bits": 0,
+      "detector_seconds": 2.4925471,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "c39ff0630ed2aefb",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_both.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "horizontal_360p",
+      "filter": "hflip,scale=640:360",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "identity",
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4735654,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "016b3358ba1bb0a7",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_horizontal_360p.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "vertical_stretch",
+      "filter": "vflip,scale=1920:720",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "horizontal_flip",
+      "expected_orientation": "vertical_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4865498,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "015d9d1cd8310eea",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_vertical_stretch.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "horizontal_crop125",
+      "filter": "crop=1024:576:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "horizontal_flip",
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4901369,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "98eeab288b3ab4f5",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_horizontal_crop125.mp4"
+    },
+    {
+      "viewer": "Viewer-A",
+      "case": "horizontal_crop150",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "matched_correct_viewer": false,
+      "status": "not_identified",
+      "orientation": null,
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": null,
+      "detector_seconds": 2.4730377,
+      "expected_delivery_id": "9a632106785a9fcd",
+      "report_id": "93f845ad9dc10603",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-A_horizontal_crop150.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "identity",
+      "filter": "null",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "identity",
+      "expected_orientation": "identity",
+      "correction_bits": 0,
+      "detector_seconds": 2.4799177,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "f882c6dd776bfcba",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_identity.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "horizontal",
+      "filter": "hflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "identity",
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.5769741,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "8a9a7e9bf55abc91",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_horizontal.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "vertical",
+      "filter": "vflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "horizontal_flip",
+      "expected_orientation": "vertical_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4754039,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "8755cdaab0947c87",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_vertical.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "both",
+      "filter": "hflip,vflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "vertical_flip",
+      "expected_orientation": "both_flips",
+      "correction_bits": 0,
+      "detector_seconds": 2.5861786,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "12d1d805b1c919ab",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_both.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "horizontal_360p",
+      "filter": "hflip,scale=640:360",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "identity",
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.4833469,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "d9a16b2d2b65f813",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_horizontal_360p.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "vertical_stretch",
+      "filter": "vflip,scale=1920:720",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "horizontal_flip",
+      "expected_orientation": "vertical_flip",
+      "correction_bits": 0,
+      "detector_seconds": 2.6029916,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "d586fb1e3cd9c978",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_vertical_stretch.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "horizontal_crop125",
+      "filter": "crop=1024:576:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "matched_correct_viewer": true,
+      "status": "matched",
+      "orientation": "horizontal_flip",
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": 1,
+      "detector_seconds": 2.6018634,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "2e07e1bec2c51769",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_horizontal_crop125.mp4"
+    },
+    {
+      "viewer": "Viewer-B",
+      "case": "horizontal_crop150",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "matched_correct_viewer": false,
+      "status": "not_identified",
+      "orientation": null,
+      "expected_orientation": "horizontal_flip",
+      "correction_bits": null,
+      "detector_seconds": 2.4826813,
+      "expected_delivery_id": "b928c48d69186b3a",
+      "report_id": "6c3c749ab3150425",
+      "video_path": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\viewer_20261031_042210\\Viewer-B_horizontal_crop150.mp4"
+    }
+  ],
+  "negative_controls": [
+    {
+      "case": "original",
+      "status": "not_identified",
+      "passed": true
+    },
+    {
+      "case": "horizontal",
+      "status": "not_identified",
+      "passed": true
+    },
+    {
+      "case": "vertical",
+      "status": "not_identified",
+      "passed": true
+    }
+  ],
+  "complete": true,
+  "engine_sha256": "483032d230147a6cb794902d2fd85a147a0a1c16fadb56450bfda52c8d32c883",
+  "summary": {
+    "identity": {
+      "matched": 2,
+      "tested": 2
+    },
+    "horizontal": {
+      "matched": 2,
+      "tested": 2
+    },
+    "vertical": {
+      "matched": 2,
+      "tested": 2
+    },
+    "both": {
+      "matched": 2,
+      "tested": 2
+    },
+    "horizontal_360p": {
+      "matched": 2,
+      "tested": 2
+    },
+    "vertical_stretch": {
+      "matched": 2,
+      "tested": 2
+    },
+    "horizontal_crop125": {
+      "matched": 2,
+      "tested": 2
+    },
+    "horizontal_crop150": {
+      "matched": 0,
+      "tested": 2
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "format": "BCH(255,131,t=18)+64-bit copy ID+64-bit HMAC",
+  "passed": 297
+}

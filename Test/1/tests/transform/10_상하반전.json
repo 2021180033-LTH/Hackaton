@@ -1,0 +1,17 @@
+{
+  "result": "traced",
+  "video": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic\\tests\\transform\\10_상하반전.mp4",
+  "fingerprint_asset": "b604",
+  "fingerprint_similarity": 0.9999,
+  "undone_edits": "상하 반전",
+  "asset_id": "b604",
+  "viewer_id": "3b449b",
+  "recipient": "미지정",
+  "device": "Tae-Laptop",
+  "ip": "192.168.20.8",
+  "issued_at": "2026-10-31 04:07:14",
+  "source_file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic\\samples\\luma_courier_8s.mp4",
+  "frames_checked": 240,
+  "corrected_bits": 0,
+  "signal_margin": 171
+}

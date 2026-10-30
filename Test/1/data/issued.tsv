@@ -1,0 +1,7 @@
+viewer_id	asset_id	recipient	device	ip	issued_at	file
+e41c67	b604	테스터A_김민수	노트북-LAPTOP-7F2A	211.36.142.17	2026-10-31 03:53:19	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\issued\b604_e41c67_테스터A_김민수.mp4
+5dc550	b604	테스터B_이서연	데스크톱-DESKTOP-K9Q1	175.223.10.88	2026-10-31 03:53:25	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\issued\b604_5dc550_테스터B_이서연.mp4
+a9b2cb	b604	스트리머C_박지훈	맥북-MBP-31C0	121.134.55.201	2026-10-31 03:53:31	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\issued\b604_a9b2cb_스트리머C_박지훈.mp4
+3b449b	b604	미지정	Tae-Laptop	192.168.20.8	2026-10-31 04:07:14	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\samples\luma_courier_8s_표식_3b449b.mp4
+db1c35	b604	미지정	Tae-Laptop	192.168.20.8	2026-10-31 04:08:48	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\samples\luma_courier_8s_표식_db1c35.mp4
+0f44dd	b604	FRAME 업로드: test	FRAME · creatorA	127.0.0.1	2026-10-31 04:58:08	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\data\frame\marked\luma_courier_8s_표식_0f44dd.mp4	C:\Users\mdk73\Documents\Codex\2026-10-30\ai-x20\Forensic\samples\luma_courier_8s.mp4

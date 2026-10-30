@@ -1,0 +1,8 @@
+{
+  "port": 8769,
+  "device": "auto",
+  "libtorch": "C:/Users/mdk73/Documents/Codex/2026-10-30/ai-x20/work/video_noise_runtime/Lib/site-packages/torch/lib",
+  "ffmpeg": "C:/Users/mdk73/AppData/Local/Microsoft/WinGet/Links/ffmpeg.exe",
+  "ffprobe": "C:/Users/mdk73/AppData/Local/Microsoft/WinGet/Links/ffprobe.exe",
+  "watermark_strength": 0.6
+}

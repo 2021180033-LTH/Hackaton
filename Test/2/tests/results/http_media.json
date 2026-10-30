@@ -1,0 +1,74 @@
+[
+  {
+    "case": "media bytes=0-1023",
+    "passed": true,
+    "content_range": "bytes 0-1023/1351027"
+  },
+  {
+    "case": "media bytes=1024-2047",
+    "passed": true,
+    "content_range": "bytes 1024-2047/1351027"
+  },
+  {
+    "case": "media bytes=-512",
+    "passed": true,
+    "content_range": "bytes 1350515-1351026/1351027"
+  },
+  {
+    "case": "media bytes=0-",
+    "passed": true,
+    "content_range": "bytes 0-1351026/1351027"
+  },
+  {
+    "case": "media full download",
+    "passed": true
+  },
+  {
+    "case": "media invalid range",
+    "passed": true
+  },
+  {
+    "case": "original bytes=0-1023",
+    "passed": true,
+    "content_range": "bytes 0-1023/1076853"
+  },
+  {
+    "case": "original bytes=1024-2047",
+    "passed": true,
+    "content_range": "bytes 1024-2047/1076853"
+  },
+  {
+    "case": "original bytes=-512",
+    "passed": true,
+    "content_range": "bytes 1076341-1076852/1076853"
+  },
+  {
+    "case": "original bytes=0-",
+    "passed": true,
+    "content_range": "bytes 0-1076852/1076853"
+  },
+  {
+    "case": "original full download",
+    "passed": true
+  },
+  {
+    "case": "original invalid range",
+    "passed": true
+  },
+  {
+    "case": "Output audio present",
+    "passed": true
+  },
+  {
+    "case": "8-second output duration retained",
+    "passed": true
+  },
+  {
+    "case": "UI default strength 0.4",
+    "passed": true
+  },
+  {
+    "case": "UI-issued copy passes authentication",
+    "passed": true
+  }
+]

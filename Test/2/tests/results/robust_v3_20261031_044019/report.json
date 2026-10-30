@@ -1,0 +1,1159 @@
+{
+  "version": "3",
+  "scope": "Two synthetic 8-second 720p sources; 3 distinct viewer codes; strength 0.4; transformed files H264 CRF23. Not a general robustness guarantee.",
+  "created_at": "2026-10-30T19:40:19.486475+00:00",
+  "cases": [
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "reencode",
+      "filter": "null",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "15678b7a1b375e05",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.5495103,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_reencode.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "upscale_1080",
+      "filter": "scale=1920:1080",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "c82830ecbdea1bcc",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.7233581,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_upscale_1080.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "downscale_360",
+      "filter": "scale=640:360",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "79116f6b7e27648f",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6700804,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_downscale_360.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "downscale_180",
+      "filter": "scale=320:180",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "111ddc7e1a031119",
+      "corrected_bits": 2,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.5194848,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_downscale_180.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "stretch_wide",
+      "filter": "scale=1920:720",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "c39a1011eaf21022",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6418925,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_stretch_wide.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "stretch_tall",
+      "filter": "scale=1280:1080",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "64a075dfd01cce55",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.7551892,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_stretch_tall.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "horizontal",
+      "filter": "hflip",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "8099944d55491fbb",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6434239,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_horizontal.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "vertical",
+      "filter": "vflip",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "05c73651e41975b1",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.7282403,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_vertical.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "both",
+      "filter": "hflip,vflip",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "8a5ca96ddd7cb31f",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6702626,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_both.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "crop_150",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,scale=1280:720",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "ed06abacd97235c6",
+      "corrected_bits": 18,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6605951,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_crop_150.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "crop_200",
+      "filter": "crop=640:360:(iw-ow)/2:(ih-oh)/2,scale=1280:720",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "0c26cade7766fcfe",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.49236881732940674,
+            0.5014159083366394,
+            0.0010145275155082345,
+            -0.0028739459812641144
+          ],
+          "mean_absolute_error": 0.02066558599472046,
+          "orientation": "identity",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.7660012,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_crop_200.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "offcenter_crop150",
+      "filter": "crop=854:480:80:40,scale=1280:720",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "91d0ddabb6e78ed8",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6750076413154602,
+            0.6680163741111755,
+            -0.20693086087703705,
+            -0.22394342720508575
+          ],
+          "mean_absolute_error": 0.019111894071102142,
+          "orientation": "identity",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.361732,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_offcenter_crop150.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "crop150_flip_360",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,hflip,scale=640:360",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "48f0cc07c81c8757",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6633540987968445,
+            0.6673153638839722,
+            0.00024817269877530634,
+            -0.0023642044980078936
+          ],
+          "mean_absolute_error": 0.018731992691755295,
+          "orientation": "horizontal_flip",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.4804127000000005,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_crop150_flip_360.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "shrink_pad_flip",
+      "filter": "scale=960:540,pad=1280:720:160:90:black,vflip",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": "5f6612d5db3fc081",
+      "matched": true,
+      "status": "matched",
+      "report_id": "b0e8a9cbaa2c9eff",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6598186,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_shrink_pad_flip.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 0,
+      "case": "extreme_crop400",
+      "filter": "crop=320:180:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "expected_id": "5f6612d5db3fc081",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "922e57af3ea159f1",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.023695774376392365,
+            -0.01689073070883751
+          ],
+          "mean_absolute_error": 0.037025295197963715,
+          "orientation": "horizontal_flip",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.572689799999999,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_0_extreme_crop400.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "reencode",
+      "filter": "null",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "b69c77cdf0fc6205",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.631932,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_reencode.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "upscale_1080",
+      "filter": "scale=1920:1080",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "3772d00c4c433faa",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8167234,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_upscale_1080.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "downscale_360",
+      "filter": "scale=640:360",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "2cb91981ca5ae930",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.6673779,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_downscale_360.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "downscale_180",
+      "filter": "scale=320:180",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "b19a4b75fb354efe",
+      "corrected_bits": 5,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.7293068,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_downscale_180.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "stretch_wide",
+      "filter": "scale=1920:720",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "084125f0fd91ebc5",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.9960627,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_stretch_wide.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "stretch_tall",
+      "filter": "scale=1280:1080",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "e7c070c3a5dbfbc5",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8277996,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_stretch_tall.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "horizontal",
+      "filter": "hflip",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "47ad5bb7d8e1288d",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8591642,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_horizontal.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "vertical",
+      "filter": "vflip",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "df0aab49e9ec4ca9",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.7933955,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_vertical.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "both",
+      "filter": "hflip,vflip",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "61383f0bbcab75ba",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8428198,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_both.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "crop_150",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,scale=1280:720",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "9678464dbe6bdd89",
+      "corrected_bits": 18,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "reference_alignment",
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6628852486610413,
+            0.6650978922843933,
+            6.274753832258284e-05,
+            -0.001831655390560627
+          ],
+          "mean_absolute_error": 0.018695654347538948,
+          "orientation": "identity",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.5892049,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_crop_150.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "crop_200",
+      "filter": "crop=640:360:(iw-ow)/2:(ih-oh)/2,scale=1280:720",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "f6e4c2e7e0a66724",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.49371179938316345,
+            0.5015006065368652,
+            0.0008179015130735934,
+            -0.0036585929337888956
+          ],
+          "mean_absolute_error": 0.020625092089176178,
+          "orientation": "identity",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.5638076000000005,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_crop_200.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "offcenter_crop150",
+      "filter": "crop=854:480:80:40,scale=1280:720",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "40e997a5ee48ee9c",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6732640266418457,
+            0.6676402688026428,
+            -0.2065596580505371,
+            -0.22407416999340057
+          ],
+          "mean_absolute_error": 0.019154001027345657,
+          "orientation": "identity",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.5453932,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_offcenter_crop150.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "crop150_flip_360",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,hflip,scale=640:360",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "c45c3112837c365a",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6625357270240784,
+            0.6669503450393677,
+            -0.0004056764882989228,
+            -0.0022452769335359335
+          ],
+          "mean_absolute_error": 0.018712244927883148,
+          "orientation": "horizontal_flip",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.7091857,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_crop150_flip_360.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "shrink_pad_flip",
+      "filter": "scale=960:540,pad=1280:720:160:90:black,vflip",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": "cf3d7f1fdeacbac4",
+      "matched": true,
+      "status": "matched",
+      "report_id": "e5a524fb7668f967",
+      "corrected_bits": 0,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.7757944,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_shrink_pad_flip.mp4"
+    },
+    {
+      "source": "robot",
+      "copy": 1,
+      "case": "extreme_crop400",
+      "filter": "crop=320:180:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "expected_id": "cf3d7f1fdeacbac4",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "edfb9d28f839be03",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.024834387004375458,
+            -0.017213303595781326
+          ],
+          "mean_absolute_error": 0.03688281029462814,
+          "orientation": "horizontal_flip",
+          "reference_asset_id": "65460dfa4d4cfc37",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.5629109,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\robot_1_extreme_crop400.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "reencode",
+      "filter": "null",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "e00e42b738cb613b",
+      "corrected_bits": 17,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8074895,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_reencode.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "upscale_1080",
+      "filter": "scale=1920:1080",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "d8b2de07e2c62070",
+      "corrected_bits": 12,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.9685879,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_upscale_1080.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "downscale_360",
+      "filter": "scale=640:360",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "b4aa8cae1195b4d5",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.9971446990966797,
+            0.9991514682769775,
+            0.0012620453489944339,
+            0.0010857435408979654
+          ],
+          "mean_absolute_error": 0.005086982622742653,
+          "orientation": "identity",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.5265916,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_downscale_360.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "downscale_180",
+      "filter": "scale=320:180",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "60b031fcc77d84c1",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.9979893565177917,
+            1.0000499486923218,
+            0.0024628869723528624,
+            0.0011196525301784277
+          ],
+          "mean_absolute_error": 0.006915774196386337,
+          "orientation": "identity",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.4696166999999996,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_downscale_180.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "stretch_wide",
+      "filter": "scale=1920:720",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "78567e8d04625e6f",
+      "corrected_bits": 11,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.994836,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_stretch_wide.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "stretch_tall",
+      "filter": "scale=1280:1080",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "faa2b63e276acc37",
+      "corrected_bits": 18,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.9053047,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_stretch_tall.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "horizontal",
+      "filter": "hflip",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "8c956d544e4ad0bb",
+      "corrected_bits": 18,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8063791,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_horizontal.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "vertical",
+      "filter": "vflip",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "8dbdf62501c021f4",
+      "corrected_bits": 14,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.794907,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_vertical.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "both",
+      "filter": "hflip,vflip",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "1bd2f54d23ace86b",
+      "corrected_bits": 20,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "direct",
+      "geometry_attempted": false,
+      "registration_attempts": [],
+      "seconds": 2.8113297,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_both.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "crop_150",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,scale=1280:720",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "5dbe35ff3d7cc3a2",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6563056111335754,
+            0.6636260151863098,
+            0.00012681656517088413,
+            -0.0012839855626225471
+          ],
+          "mean_absolute_error": 0.030355170369148254,
+          "orientation": "identity",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.5399197000000004,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_crop_150.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "crop_200",
+      "filter": "crop=640:360:(iw-ow)/2:(ih-oh)/2,scale=1280:720",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "f97d57637e8b1ce3",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.5100956559181213,
+            0.5003800988197327,
+            -0.0013218570966273546,
+            -0.004843441769480705
+          ],
+          "mean_absolute_error": 0.027907611802220345,
+          "orientation": "identity",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.8242443999999995,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_crop_200.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "offcenter_crop150",
+      "filter": "crop=854:480:80:40,scale=1280:720",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "5b151efd67276762",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6674906015396118,
+            0.6670566201210022,
+            -0.20375633239746094,
+            -0.22368629276752472
+          ],
+          "mean_absolute_error": 0.024811789393424988,
+          "orientation": "identity",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.8213331,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_offcenter_crop150.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "crop150_flip_360",
+      "filter": "crop=854:480:(iw-ow)/2:(ih-oh)/2,hflip,scale=640:360",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "785a629af93d9727",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.6586279273033142,
+            0.6651442646980286,
+            -0.0010949625866487622,
+            -0.0006719219381920993
+          ],
+          "mean_absolute_error": 0.030028220266103745,
+          "orientation": "horizontal_flip",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.8257013,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_crop150_flip_360.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "shrink_pad_flip",
+      "filter": "scale=960:540,pad=1280:720:160:90:black,vflip",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": "c324e4f83b90d941",
+      "matched": true,
+      "status": "matched",
+      "report_id": "e85fa2cf8ae57eb8",
+      "corrected_bits": 18,
+      "format": "bch255_131_hmac64_v3",
+      "geometry": "reference_alignment",
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            1.3314309120178223,
+            1.335294485092163,
+            0.0004392088740132749,
+            -0.0012268626596778631
+          ],
+          "mean_absolute_error": 0.009390924125909805,
+          "orientation": "vertical_flip",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.8538647,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_shrink_pad_flip.mp4"
+    },
+    {
+      "source": "pattern",
+      "copy": 0,
+      "case": "extreme_crop400",
+      "filter": "crop=320:180:(iw-ow)/2:(ih-oh)/2,scale=1280:720,hflip",
+      "expected_id": "c324e4f83b90d941",
+      "decoded_id": null,
+      "matched": false,
+      "status": "not_identified",
+      "report_id": "80a43977b7076d9f",
+      "corrected_bits": null,
+      "format": null,
+      "geometry": null,
+      "geometry_attempted": true,
+      "registration_attempts": [
+        {
+          "accepted_for_attempt": true,
+          "evidence_to_reference": [
+            0.30149900913238525,
+            0.30000001192092896,
+            -0.00047748401993885636,
+            -0.015270402655005455
+          ],
+          "mean_absolute_error": 0.026018526405096054,
+          "orientation": "horizontal_flip",
+          "reference_asset_id": "8eee9e64891e3f67",
+          "uses_reference_pixels_for_output": false
+        }
+      ],
+      "seconds": 6.9042569,
+      "file": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic_G\\tests\\results\\robust_v3_20261031_044019\\pattern_0_extreme_crop400.mp4"
+    }
+  ],
+  "negative_controls": [
+    {
+      "source": "robot",
+      "case": "plain",
+      "status": "not_identified",
+      "passed": true,
+      "geometry_attempted": true
+    },
+    {
+      "source": "robot",
+      "case": "crop_flip",
+      "status": "not_identified",
+      "passed": true,
+      "geometry_attempted": true
+    },
+    {
+      "source": "pattern",
+      "case": "plain",
+      "status": "not_identified",
+      "passed": true,
+      "geometry_attempted": true
+    },
+    {
+      "source": "pattern",
+      "case": "crop_flip",
+      "status": "not_identified",
+      "passed": true,
+      "geometry_attempted": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Legacy code Viewer-A_horizontal.mp4",
+      "passed": true
+    },
+    {
+      "name": "Legacy code Viewer-B_vertical.mp4",
+      "passed": true
+    }
+  ],
+  "complete": true,
+  "engine_sha256": "55eb867711727506e752ca81f05797fd24b3a40683bca83e6f81ddbb1c407370",
+  "summary": {
+    "reencode": {
+      "matched": 3,
+      "tested": 3
+    },
+    "upscale_1080": {
+      "matched": 3,
+      "tested": 3
+    },
+    "downscale_360": {
+      "matched": 2,
+      "tested": 3
+    },
+    "downscale_180": {
+      "matched": 2,
+      "tested": 3
+    },
+    "stretch_wide": {
+      "matched": 3,
+      "tested": 3
+    },
+    "stretch_tall": {
+      "matched": 3,
+      "tested": 3
+    },
+    "horizontal": {
+      "matched": 3,
+      "tested": 3
+    },
+    "vertical": {
+      "matched": 3,
+      "tested": 3
+    },
+    "both": {
+      "matched": 3,
+      "tested": 3
+    },
+    "crop_150": {
+      "matched": 2,
+      "tested": 3
+    },
+    "crop_200": {
+      "matched": 0,
+      "tested": 3
+    },
+    "offcenter_crop150": {
+      "matched": 0,
+      "tested": 3
+    },
+    "crop150_flip_360": {
+      "matched": 0,
+      "tested": 3
+    },
+    "shrink_pad_flip": {
+      "matched": 3,
+      "tested": 3
+    },
+    "extreme_crop400": {
+      "matched": 0,
+      "tested": 3
+    }
+  }
+}

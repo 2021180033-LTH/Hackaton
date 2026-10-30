@@ -1,0 +1,9 @@
+{
+  "result": "original_only",
+  "video": "C:\\Users\\mdk73\\Documents\\Codex\\2026-10-30\\ai-x20\\Forensic\\tests\\transform\\18_표식없는_원본.mp4",
+  "fingerprint_asset": "b604",
+  "fingerprint_similarity": 1,
+  "frames_checked": 240,
+  "corrected_bits": 0,
+  "signal_margin": 11.69
+}

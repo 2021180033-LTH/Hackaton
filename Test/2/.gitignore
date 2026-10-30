@@ -1,0 +1,12 @@
+/build/
+/data/
+/models/*.jit
+/models/*.chunks/
+/tests/results/*.mp4
+*.obj
+*.exp
+*.lib
+*.dll
+*.exe
+
+/tests/results/**/*.mp4

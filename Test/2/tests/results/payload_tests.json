@@ -1,0 +1,76 @@
+[
+  {
+    "flipped_bits": [],
+    "passed": true,
+    "seconds": 1.52e-05
+  },
+  {
+    "flipped_bits": [
+      0
+    ],
+    "passed": true,
+    "seconds": 0.0085676
+  },
+  {
+    "flipped_bits": [
+      32
+    ],
+    "passed": true,
+    "seconds": 0.0676376
+  },
+  {
+    "flipped_bits": [
+      127
+    ],
+    "passed": true,
+    "seconds": 0.0703117
+  },
+  {
+    "flipped_bits": [
+      255
+    ],
+    "passed": true,
+    "seconds": 0.0668728
+  },
+  {
+    "flipped_bits": [
+      0,
+      255
+    ],
+    "passed": true,
+    "seconds": 0.0079495
+  },
+  {
+    "flipped_bits": [
+      64,
+      100
+    ],
+    "passed": true,
+    "seconds": 0.0666736
+  },
+  {
+    "flipped_bits": [
+      224,
+      250
+    ],
+    "passed": true,
+    "seconds": 0.0637995
+  },
+  {
+    "flipped_bits": [
+      20,
+      60,
+      240
+    ],
+    "passed": true,
+    "seconds": 0.0074043
+  },
+  {
+    "name": "Wrong signing key rejected",
+    "passed": true
+  },
+  {
+    "name": "Blank payload rejected",
+    "passed": true
+  }
+]

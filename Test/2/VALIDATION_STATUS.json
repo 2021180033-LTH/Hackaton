@@ -1,0 +1,135 @@
+{
+  "project": "Forensic_G",
+  "version": "3.0-geometry-ecc",
+  "date": "2026-10-31",
+  "mode": "loopback_only",
+  "default_strength": 0.6,
+  "runtime": "C++17 + LibTorch + FFmpeg",
+  "payload": "BCH(255,131,t=18), 64-bit copy ID, 64-bit HMAC, 3-bit format, 1 pad bit",
+  "codec_tests": {
+    "format": "BCH(255,131,t=18)+64-bit copy ID+64-bit HMAC",
+    "passed": 297
+  },
+  "video_tests": {
+    "scope": "Two synthetic 8-second 720p sources; 3 distinct viewer codes; transformed files H264 CRF23. Not a general robustness guarantee.",
+    "strength": 0.6,
+    "summary": {
+      "reencode": {
+        "matched": 3,
+        "tested": 3
+      },
+      "upscale_1080": {
+        "matched": 3,
+        "tested": 3
+      },
+      "downscale_360": {
+        "matched": 2,
+        "tested": 3
+      },
+      "downscale_180": {
+        "matched": 2,
+        "tested": 3
+      },
+      "stretch_wide": {
+        "matched": 3,
+        "tested": 3
+      },
+      "stretch_tall": {
+        "matched": 3,
+        "tested": 3
+      },
+      "horizontal": {
+        "matched": 3,
+        "tested": 3
+      },
+      "vertical": {
+        "matched": 3,
+        "tested": 3
+      },
+      "both": {
+        "matched": 3,
+        "tested": 3
+      },
+      "crop_150": {
+        "matched": 2,
+        "tested": 3
+      },
+      "crop_200": {
+        "matched": 0,
+        "tested": 3
+      },
+      "offcenter_crop150": {
+        "matched": 0,
+        "tested": 3
+      },
+      "crop150_flip_360": {
+        "matched": 2,
+        "tested": 3
+      },
+      "shrink_pad_flip": {
+        "matched": 2,
+        "tested": 3
+      },
+      "extreme_crop400": {
+        "matched": 0,
+        "tested": 3
+      }
+    },
+    "negative_controls": [
+      {
+        "source": "robot",
+        "case": "plain",
+        "status": "not_identified",
+        "passed": true,
+        "geometry_attempted": true
+      },
+      {
+        "source": "robot",
+        "case": "crop_flip",
+        "status": "not_identified",
+        "passed": true,
+        "geometry_attempted": true
+      },
+      {
+        "source": "pattern",
+        "case": "plain",
+        "status": "not_identified",
+        "passed": true,
+        "geometry_attempted": true
+      },
+      {
+        "source": "pattern",
+        "case": "crop_flip",
+        "status": "not_identified",
+        "passed": true,
+        "geometry_attempted": true
+      }
+    ],
+    "compatibility": [
+      {
+        "name": "Legacy code Viewer-A_horizontal.mp4",
+        "passed": true
+      },
+      {
+        "name": "Legacy code Viewer-B_vertical.mp4",
+        "passed": true
+      }
+    ]
+  },
+  "ui_checks": {
+    "rendered_in_edge": true,
+    "file_upload_automation": "Unavailable without extension file URL permission; real upload path tested via HTTP API."
+  },
+  "known_limitations": [
+    "Content-dependent failures: fine-pattern source downscaling, strong/off-center crops, combined edits.",
+    "No universal arbitrary-transform guarantee.",
+    "No-watermark and undetectable-watermark cannot be conflated.",
+    "Legacy videos do not acquire new ECC retrospectively.",
+    "Loopback demo; no real login, LAN deployment, physical-device identity, or proof of a real leaker.",
+    "Alignment only axis-aligned scale/translation/flips with roughly matching timelines."
+  ],
+  "binaries": {
+    "Forensic_G.exe": "ba0f5675582147f87e23d0e985418911934c264528001ab34c2ed25c9b16f6fc",
+    "ForensicEngine.dll": "55eb867711727506e752ca81f05797fd24b3a40683bca83e6f81ddbb1c407370"
+  }
+}

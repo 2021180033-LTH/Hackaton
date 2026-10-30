@@ -1,0 +1,9 @@
+{
+  "source": "https://dl.fbaipublicfiles.com/videoseal/y_256b_img.jit",
+  "sha256": "5c7a4581c36fc6090aafdcfb3999123bae5172a4847f22e2da4e7fd1a39d1e1b",
+  "bytes": 228524815,
+  "model": "VideoSeal 1.0 TorchScript 256 bit",
+  "license": "MIT",
+  "downloaded": "2026-10-31",
+  "synthetic_smoke_only": true
+}
